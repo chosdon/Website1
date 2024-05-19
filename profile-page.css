@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+  height: 78px;
+ background-color: yellowgreen;
+}
+.panel{
+display: flex;
+align-items: top;
+width: 100%;
+}
+
+ .leftside{
+    height : 1000px;
+    width: 350px;
+    position: relative;
+    top :34px;
+    /* margin-top: 34px; */
+    background-color: rgb(152, 186, 213);
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+ }
+.sidepanel{
+    height : 900px;
+    width: 260px;
+    background-color: transparent;
+    padding-top: 100px;
+    position: relative ;
+    left:26px;
+    right: 16px;
+     display: flex;
+    flex-direction: column;
+    
+}
+.icon:hover {
+   background-color: gray;; /* Change color on hover as an example */
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 40px;
+    border-radius: 10px;
+    background-color: rgb(204, 222, 224);
+   margin-bottom: 25px;
+   
+}
+.icon i {
+    font-size: 24px; /* Adjust the size of the icon */
+    /* padding-left: 40px; */
+    display: inline-block;
+    vertical-align: middle;
+    /* cursor: pointer; */
+}
+.icon_button {
+    font-size: 25px; /* Adjust the size as needed */
+    padding-left: 20px; /* Adjust the padding as needed */
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.right{
+    width:1541px;
+    /* display: vertical; */
+
+}
+.right_top1{
+    /* margin-top: 34px; */
+    background-color: rgb(103, 161, 208);
+    width: 1324px;
+    height: 450px;
+    border-radius: 24px 24px 24px 24px;
+    box-shadow: 0px 12px 12px 0px rgba(171, 167, 167, 0.5);
+    /* margin-left: 34px; */
+    position : relative;
+    top :34px;
+    left : 84px;
+    display: flex;
+}
+.profile_box{
+    height: 400px;
+    width: 320px;
+    
+    /* background-color: mediumspringgreen; */
+    /* padding-left: 55px; */
+    /* position: relative;
+    left: 54px; */
+}
+.img_box{
+    width: 195.4px;
+    height: 130px;
+    /* background-color: magenta; */
+    margin-top: 34px;
+    position: relative;
+    left:20%;
+    top:5%
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.pic{
+    height: 130px;
+    clip-path: circle(); 
+    /* width: 130px; */
+}
+.round {
+    position: relative;
+    left:62%;
+    transform: translateY(-50%);
+    
+}
+
+.file-input {
+    display: none;
+}
+
+.upload-btn {
+    display: inline-block;
+    background-color: rgb(102, 160, 235);
+    color: white; 
+    padding: 10px;
+    font-size: 24px; 
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn i {
+    font-size: 24px;
+}
+
+.name_box{
+/* background-color: blueviolet; */
+width:320px;
+height:30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    /* text-size-adjust: ; */
+}
+.line1 {
+    border-left: 1px solid white;  /* Adjust color and style as needed */
+    height: 300px; /* Adjust height as needed */
+    margin-top: 35px;
+}
+.rightmost{
+    margin-left: 13px;
+    /* background-color: pink; */
+    width: 960px;
+}
+.editprofile{
+    margin-top: 12px;
+    height: 40px;
+    /* background-color: indigo; */
+    display: flex;
+    justify-content: end;
+    
+    }
+.btn1 :hover{
+   
+    background-color: rgb(169, 139, 34);
+}
+.btn1 {
+    /* Adjust width */
+    width: 120px; /* Adjust width as needed */
+    font-size: 15px; /* Adjust font size as needed */
+    border-radius: 13px;
+    background-color: #eacc67;
+    cursor: pointer;
+    padding: 10px 20px;
+    /* color: rgb(106, 208, 66); */
+}
+.information{
+    margin-top: 10px;
+    height:300px;
+    /* background-color: yellow; */
+}
+.right_top2{
+    background-color: rgb(103, 161, 208);
+    width: 1324px;
+    height: 450px;
+    border-radius: 24px 24px 24px 24px;
+    box-shadow: 0px 12px 12px 0px rgba(171, 167, 167, 0.5);
+    position : relative;
+    top :94px;
+    left : 84px;
+    display: flex;
+}
+
+
+     
+
