@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background-color: greenyellow;
+    height: 99px;   
+    width: 100%;
+}
+.screen{
+ display: flex;
+ width:100%;
+}
+.left{
+    background-color: rgb(206, 232, 238);
+    width: 60%;
+    height: 900px;
+}
+.right{
+    background-color: rgb(201, 209, 211);
+    width:40%;
+    height: 900px;
+}
+.panelr{
+    width: 78%;
+    height:750px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 5%;
+    left: 7%;
+    border-radius: 24px ;
+    box-shadow: 12px 12px 24px rgba(40, 39, 39, 0.2);
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height: 80px;
+    text-align: center;
+    border-radius: 24px  ;
+}
+.Schedule {
+    font-size: 30px;
+    font-weight: semi-bold;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 10px;
+    margin: 16px 0;
+   text-shadow: 23px;
+   background: linear-gradient(45deg, red, rgb(164, 147, 33), rgb(187, 187, 48), green, blue, indigo, violet);
+        -webkit-background-clip: text;
+        color: transparent;
+ }
+ .line {
+    border-top: 1px solid black; /* Define style of the horizontal line*/
+    width: 80%; /* Set the width of the line */
+    margin: 20px auto; /* Center the line and add margin top and bottom */
+}
+.dates{
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(156, 209, 33); */
+}
+.text{
+    font-size: 27px;
+    font-weight: 400;
+    margin-left: 32px;
+}
+
+.container1{
+    display: flex;
+    gap: 20px; 
+    justify-content: space-evenly; /* Center the cards horizontally */
+    padding: 20px 0;
+    flex-wrap: wrap; 
+    /* padding: 20px 0; */
+    /* Allow cards to wrap to the next line if needed */
+}
+.cards{
+    border:  0.5 px solid black;
+    height: 122.6px;
+    width: 100px;
+    position: relative; /* Use position: absolute */
+    top: 23px; 
+    /* Position relative to the top of the container */
+    border-radius: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    border:0.5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cae895;
+}
+.btn:hover{
+    border-color:  rgb(60, 185, 224);
+}
+.day {
+        position: absolute;
+        top: 28%; /* Adjust this value to position the text vertically */
+        left: 49%; /* Adjust this value to position the text horizontally */
+        transform: translate(-50%, -50%);
+         font-size: 18px;
+         height: 34px;
+}
+.date{
+    font-size: 22px;
+    /* height: 34px; */
+    position: absolute;
+    top: 38%; /* Adjust this value to position the text vertically */
+    left: 9%;
+    /* color: aqua; */
+}
+.n_slot{
+    font-size: 13px;
+    /* color: rgb(36, 193, 89); */
+    /* height: 18px; */
+    position: absolute;
+    top: 65%; /* Adjust this value to position the text vertically */
+    left: 29%;
+}
+.container2{
+    display: flex;
+    gap: 20px; 
+    justify-content: start; /* Center the cards horizontally */
+    padding: 20px 0;
+    flex-wrap: wrap; 
+    /* position: relative;
+    left: 55px; */
+    /* background-color: rgb(111, 69, 5); */
+    height: 18%;
+}
+.slots{
+    border:  0.5 px solid rgb(82, 81, 81);
+    height: 56.6px;
+    width: 120px;
+    position: relative; /* Use position: absolute */
+    top: 23px; 
+    
+    /* Position relative to the top of the container */
+    border-radius: 10px;
+}
+.bn{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    left: 32px;
+    border:0.5px solid rgb(101, 98, 98);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bn:hover{
+    border-color:  rgb(52, 182, 221);
+}
+.time{
+    font-size: large;
+}
+.box4{
+    height: 8%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+
+}
+.buttn{
+    margin-top: 23px;
+    background-color: rgb(72, 149, 221);
+    width: 80%;
+    color: white;
+    height: 100%;
+    border-radius: 24px;
+    font-size: 24px;
+}
+.buttn:hover{
+    background-color: rgb(37, 101, 173);
+}
+.line{
+font-weight: lighter;
+}
+.panell{
+    background-color: rgb(255, 255, 255);
+    width: 90%;;
+    height: 90%;
+    position: relative;
+    top: 4%;
+    left: 6%;
+    border-radius: 18px;
+    box-shadow: 12px 12px 24px rgba(40, 39, 39, 0.2);
+}
+/* .nav-bar2{
+    background-color: rgb(165, 29, 45);
+    height: 20%;
+    width: 100%;
+} */
+.profile-box{
+    background-color: gainsboro;
+    height: 35%;
+    width: 25%;
+    position: relative;
+    top: 8%;
+    left: 8%;
+    overflow: hidden; 
+    border: 4px solid wheat;
+    border-radius: 13px;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the box without stretching */
+        
+}
+.name_box{
+    height: 4;
+}
