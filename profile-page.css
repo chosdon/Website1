@@ -3,31 +3,37 @@
     padding: 0;
 }
 .navbar{
-  height: 78px;
+ height: 88px;
  background-color: yellowgreen;
+ position: fixed;
+ width: 100%;
+ top: 0;
+ z-index: 1000; /* Ensures the navbar stays on top */
 }
 .panel{
 display: flex;
-align-items: top;
 width: 100%;
+margin-top: 78px;
 }
 
  .leftside{
-    height : 1000px;
+
+    height: 1000px;
     width: 350px;
-    position: relative;
-    top :34px;
-    /* margin-top: 34px; */
+    position: fixed;
+    top: 112px; /* Adjust based on .navbar height + top offset */
     background-color: rgb(152, 186, 213);
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
+    z-index: 999; /* Ensures it stays above other content */
  }
 .sidepanel{
     height : 900px;
     width: 260px;
     background-color: transparent;
     padding-top: 100px;
-    position: relative ;
+    /* position: relative ; */
+    position: fixed; /* Change this to fixed */
     left:26px;
     right: 16px;
      display: flex;
@@ -61,10 +67,9 @@ width: 100%;
     vertical-align: middle;
     
 }
-.right{
-    width:1541px;
-    /* display: vertical; */
-
+.right {
+    margin-left: 376px; /* Align next to .leftside */
+    width: calc(100% - 376px); /* Adjust width to take remaining space */
 }
 .right_top1{
     /* margin-top: 34px; */
@@ -78,19 +83,15 @@ width: 100%;
     top :34px;
     left : 84px;
     display: flex;
+    align-items: flex-start;
 }
 .profile_box{
     height: 400px;
     width: 320px;
-    
-    /* background-color: mediumspringgreen; */
-    /* padding-left: 55px; */
-    /* position: relative;
-    left: 54px; */
 }
 .img_box{
-    width: 195.4px;
-    height: 130px;
+    width: 210px;
+    height: 200px;
     /* background-color: magenta; */
     margin-top: 34px;
     position: relative;
@@ -101,15 +102,14 @@ width: 100%;
     /* align-items: center; */
 }
 .pic{
-    height: 130px;
+    height: 200px;
     clip-path: circle(); 
     /* width: 130px; */
 }
 .round {
     position: relative;
-    left:62%;
-    transform: translateY(-50%);
-    
+    left: 62%;
+    transform: translateX(5%) translateY(-50%) scale(0.7);
 }
 
 .file-input {
@@ -118,10 +118,10 @@ width: 100%;
 
 .upload-btn {
     display: inline-block;
-    background-color: rgb(102, 160, 235);
-    color: white; 
-    padding: 10px;
-    font-size: 24px; 
+    background-color: rgb(40, 50, 63);
+    color: rgb(255, 255, 255); 
+    padding: 20px;
+    font-size: 18px; 
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -135,26 +135,29 @@ width: 100%;
 /* background-color: blueviolet; */
 width:320px;
 height:30px;
-display: flex;
+/* display: flex;
 justify-content: center;
-align-items: center;
+align-items: center; */
+position: relative;
+left: 45%;
 }
 .name{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 23px;
+    font-size: 26px;
     /* text-size-adjust: ; */
 }
 .line1 {
     border-left: 1px solid white;  /* Adjust color and style as needed */
-    height: 300px; /* Adjust height as needed */
-    margin-top: 35px;
-}
+
+margin-left: 99px;
+margin-top: 35px;
+} 
 .rightmost{
     margin-left: 13px;
     /* background-color: pink; */
-    width: 960px;
+    width: 850px;
 }
 .editprofile{
     margin-top: 12px;
@@ -178,11 +181,7 @@ align-items: center;
     padding: 10px 20px;
     /* color: rgb(106, 208, 66); */
 }
-.information{
-    margin-top: 10px;
-    height:300px;
-    /* background-color: yellow; */
-}
+
 .right_top2{
     background-color: rgb(103, 161, 208);
     width: 1324px;
@@ -194,7 +193,18 @@ align-items: center;
     left : 84px;
     display: flex;
 }
-
+.information{
+    margin-top: 30px;
+    height:300px;
+    /* background-color: yellow; */
+}
+.textb{
+   font-size: 34px;
+   font-weight: 300;
+}
+.textl{
+    font-size: 24px;
+    font-weight: 300;
+}
 
      
-
